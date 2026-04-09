@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YOUR LIBRARY – Premium Study Space, Greater Noida</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo"><i class="fas fa-book-open"></i></div>
+    <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    <p>Loading YOUR Library...</p>
+  </div>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">
+      <div class="logo-mark"><i class="fas fa-book-open"></i></div>
+      <div class="logo-text">
+        <span class="logo-name">YOUR Library</span>
+        <span class="logo-sub">Premium Study Space</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#pricing" class="nav-link">Plans</a></li>
+      <li><a href="#facilities" class="nav-link">Facility</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+      <li><a href="#registration" class="nav-link">Register</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeToggle">
+        <span class="theme-icon" id="themeIcon"><i class="fas fa-moon"></i></span>
+      </button>
+      <a href="#registration" class="nav-cta-btn">Book Seat</a>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#pricing">Plans</a></li>
+    <li><a href="#facilities">Facility</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#registration">Register</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#registration" class="mobile-cta">Book Your Seat</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-left" data-aos="fade-right">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Now Open 24/7 — Greater Noida</span>
+      </div>
+      <h1>Welcome to<br/><span class="shine-text">Your Library</span></h1>
+      <p>Experience a peaceful, distraction-free study environment designed to help you stay focused, consistent, and productive every single day.</p>
+      <div class="hero-actions">
+        <a href="#registration" class="cta-main">
+          <span>Book Your Seat</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="https://maps.google.com/?q=Jagat+Farm+Greater+Noida" target="_blank" class="cta-ghost">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Get Directions</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat">
+          <span class="hstat-n" data-count="100">0</span><span class="hstat-n-plus">+</span>
+          <span class="hstat-l">Happy Students</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hstat">
+          <span class="hstat-n">24/7</span>
+          <span class="hstat-l">Always Open</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hstat">
+          <span class="hstat-n">3</span>
+          <span class="hstat-l">Study Slots</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right" data-aos="fade-left">
+      <div class="hero-img-card">
+        <!-- Indian students studying image -->
+        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=700&q=80" alt="Students at Jeet Library" class="hero-main-img"/>
+        <div class="hero-float-card card-1">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong>Safe & Secure</strong>
+            <span>CCTV 24/7</span>
+          </div>
+        </div>
+        <div class="hero-float-card card-2">
+          <i class="fas fa-wifi"></i>
+          <div>
+            <strong>High-Speed WiFi</strong>
+            <span>100 Mbps+</span>
+          </div>
+        </div>
+        <div class="hero-float-card card-3">
+          <i class="fas fa-snowflake"></i>
+          <div>
+            <strong>Fully AC</strong>
+            <span>All Seasons</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-indicator"><div class="scroll-dot"></div></div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-side" data-aos="fade-right">
+        <div class="about-img-wrap">
+          <!-- Indian library / study space image -->
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=700&q=80" alt="Jeet Library Study Hall"/>
+          <div class="about-exp-badge">
+            <span class="exp-big">5+</span>
+            <span class="exp-small">Years of Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text-side" data-aos="fade-left">
+        <div class="sec-tag">About Us</div>
+        <h2>Your Partner in <em>Academic Excellence</em></h2>
+        <p>Your Library was founded with a single mission — to give every student in Greater Noida access to a world-class study environment without breaking the bank.</p>
+        <p>From IIT/JEE aspirants to UPSC warriors and college students, our space is designed to fuel your ambitions with 24/7 access, premium infrastructure, and a focused community.</p>
+        <div class="about-points">
+          <div class="apoint"><i class="fas fa-check-circle"></i><span>Individual cubicles for focused study</span></div>
+          <div class="apoint"><i class="fas fa-check-circle"></i><span>Dedicated locker facility available</span></div>
+          <div class="apoint"><i class="fas fa-check-circle"></i><span>Purified drinking water provided</span></div>
+          <div class="apoint"><i class="fas fa-check-circle"></i><span>Separate sections for boys & girls</span></div>
+        </div>
+        <a href="#registration" class="cta-main" style="margin-top:32px;display:inline-flex;">Join Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="pricing section" id="pricing">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Plans & Pricing</div>
+      <h2>Choose Your <em>Study Slot</em></h2>
+      <p>Flexible time slots designed around your schedule. All plans include WiFi, AC & washroom access.</p>
+    </div>
+    <div class="pricing-wrap" data-aos="fade-up" data-aos-delay="100">
+      <div class="price-card">
+        <div class="pc-icon"><i class="fas fa-sun"></i></div>
+        <h3>Morning Slot</h3>
+        <div class="pc-time">6 AM – 10 AM</div>
+        <div class="pc-price">₹799<sup>/month</sup></div>
+        <ul class="pc-list">
+          <li><i class="fas fa-check"></i>4 hours morning access</li>
+          <li><i class="fas fa-check"></i>High-Speed WiFi</li>
+          <li><i class="fas fa-check"></i>AC & comfortable seating</li>
+          <li><i class="fas fa-check"></i>Washroom access</li>
+          <li class="off"><i class="fas fa-times"></i>Locker facility</li>
+        </ul>
+        <a href="#registration" class="pc-btn outline-btn">Select Plan</a>
+      </div>
+
+      <div class="price-card featured">
+        <div class="pc-popular">Most Popular</div>
+        <div class="pc-icon"><i class="fas fa-cloud-sun"></i></div>
+        <h3>Full Day Slot</h3>
+        <div class="pc-time">10 AM – 6 PM</div>
+        <div class="pc-price">₹1,499<sup>/month</sup></div>
+        <ul class="pc-list">
+          <li><i class="fas fa-check"></i>8 hours full day access</li>
+          <li><i class="fas fa-check"></i>High-Speed WiFi</li>
+          <li><i class="fas fa-check"></i>AC & comfortable seating</li>
+          <li><i class="fas fa-check"></i>Washroom access</li>
+          <li><i class="fas fa-check"></i>Locker facility</li>
+        </ul>
+        <a href="#registration" class="pc-btn filled-btn">Select Plan</a>
+      </div>
+
+      <div class="price-card">
+        <div class="pc-icon"><i class="fas fa-moon"></i></div>
+        <h3>Evening Slot</h3>
+        <div class="pc-time">6 PM – 12 AM</div>
+        <div class="pc-price">₹999<sup>/month</sup></div>
+        <ul class="pc-list">
+          <li><i class="fas fa-check"></i>6 hours evening access</li>
+          <li><i class="fas fa-check"></i>High-Speed WiFi</li>
+          <li><i class="fas fa-check"></i>AC & comfortable seating</li>
+          <li><i class="fas fa-check"></i>Washroom access</li>
+          <li class="off"><i class="fas fa-times"></i>Locker facility</li>
+        </ul>
+        <a href="#registration" class="pc-btn outline-btn">Select Plan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FACILITIES ===== -->
+<section class="facilities section" id="facilities">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Why Choose Us</div>
+      <h2>Everything You Need to <em>Succeed</em></h2>
+      <p>Premium amenities at affordable prices — built for serious students.</p>
+    </div>
+    <div class="fac-grid">
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="fac-icon-wrap"><i class="fas fa-clock"></i></div>
+        <h3>24/7 Access</h3>
+        <p>Study anytime — day or night, 365 days a year with no restrictions.</p>
+      </div>
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="fac-icon-wrap"><i class="fas fa-wifi"></i></div>
+        <h3>High-Speed WiFi</h3>
+        <p>Lightning-fast internet connection for seamless online learning.</p>
+      </div>
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="fac-icon-wrap"><i class="fas fa-restroom"></i></div>
+        <h3>Separate Washrooms</h3>
+        <p>Clean, hygienic and separate washroom facilities for boys and girls.</p>
+      </div>
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="fac-icon-wrap"><i class="fas fa-snowflake"></i></div>
+        <h3>Fully Air-Conditioned</h3>
+        <p>Comfortable temperature-controlled environment for long study sessions.</p>
+      </div>
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="320">
+        <div class="fac-icon-wrap"><i class="fas fa-volume-mute"></i></div>
+        <h3>Quiet Environment</h3>
+        <p>Noise-free, distraction-free zones for maximum concentration.</p>
+      </div>
+      <div class="fac-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="fac-icon-wrap"><i class="fas fa-shield-alt"></i></div>
+        <h3>Secure & Safe</h3>
+        <p>24/7 CCTV surveillance and personal locker facilities for your safety.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery section" id="gallery">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Our Space</div>
+      <h2>Explore <em>Your Library</em></h2>
+      <p>A glimpse into the focused, well-equipped environment waiting for you.</p>
+    </div>
+    <div class="gallery-grid" data-aos="fade-up">
+      <div class="gal-item gal-large">
+        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80" alt="Indian Students Studying"/>
+        <div class="gal-caption">Focused Study Halls</div>
+      </div>
+      <div class="gal-item">
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=600" alt="Individual Cubicles"/>
+        <div class="gal-caption">Individual Cubicles</div>
+      </div>
+      <div class="gal-item">
+        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="Study Space"/>
+        <div class="gal-caption">Private Study Desks</div>
+      </div>
+      <div class="gal-item">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80" alt="Reading Area"/>
+        <div class="gal-caption">Reading Zone</div>
+      </div>
+      <div class="gal-item">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="Group Study"/>
+        <div class="gal-caption">Locker Area</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials section" id="testimonials">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Student Reviews</div>
+      <h2>What Our <em>Students Say</em></h2>
+    </div>
+    <div class="testi-outer" data-aos="fade-up">
+      <div class="testi-cards" id="testiCards">
+        <div class="testi-card active">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Best library in Greater Noida! Clean, quiet, and extremely well-maintained. The cubicles are perfect for serious preparation. Highly recommend for UPSC and JEE aspirants!"</p>
+          <div class="testi-person">
+            <div class="testi-avatar cyan">RV</div>
+            <div>
+              <strong>Rahul Verma</strong>
+              <span>Engineering Student, AKTU</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The 24/7 access has completely changed how I study. I come late nights and the atmosphere is always focused. The WiFi speed is excellent for downloading study material."</p>
+          <div class="testi-person">
+            <div class="testi-avatar green">PS</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>UPSC Aspirant</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Very affordable compared to other libraries in Noida. The locker facility is very convenient. AC works great even in peak summer. Staff is very cooperative and helpful."</p>
+          <div class="testi-person">
+            <div class="testi-avatar orange">AK</div>
+            <div>
+              <strong>Amit Kumar</strong>
+              <span>NEET Aspirant</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"I've been a member for 8 months now. The environment is exactly what I needed — no distractions, fast internet, and comfortable seating. Best investment for my studies."</p>
+          <div class="testi-person">
+            <div class="testi-avatar purple">NK</div>
+            <div>
+              <strong>Neha Kaushik</strong>
+              <span>CA Aspirant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-nav">
+        <button class="t-prev" id="tPrev"><i class="fas fa-chevron-left"></i></button>
+        <div class="t-dots" id="tDots">
+          <span class="t-dot active"></span>
+          <span class="t-dot"></span>
+          <span class="t-dot"></span>
+          <span class="t-dot"></span>
+        </div>
+        <button class="t-next" id="tNext"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REGISTRATION ===== -->
+<section class="registration section" id="registration">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Get Started</div>
+      <h2>Book Your <em>Seat Today</em></h2>
+      <p>Fill the form below and your details will be sent directly to our WhatsApp instantly.</p>
+    </div>
+    <div class="reg-grid">
+      <div class="reg-form" data-aos="fade-right">
+        <h3>Registration Form</h3>
+        <form id="regForm" novalidate>
+          <div class="fi">
+            <label>Full Name *</label>
+            <input type="text" id="rName" placeholder="Aapka pura naam" required/>
+          </div>
+          <div class="fi-row">
+            <div class="fi">
+              <label>Phone Number *</label>
+              <input type="tel" id="rPhone" placeholder="+91 XXXXX XXXXX" required/>
+            </div>
+            <div class="fi">
+              <label>Email</label>
+              <input type="email" id="rEmail" placeholder="email@example.com"/>
+            </div>
+          </div>
+          <div class="fi">
+            <label>Select Slot</label>
+            <select id="rSlot">
+              <option value="">-- Koi ek slot chunein --</option>
+              <option value="Slot 1 – Morning (6AM-10AM) ₹799/month">Slot 1 – Morning (6AM–10AM) ₹799/month</option>
+              <option value="Slot 2 – Full Day (10AM-6PM) ₹1499/month">Slot 2 – Full Day (10AM–6PM) ₹1,499/month</option>
+              <option value="Slot 3 – Evening (6PM-12AM) ₹999/month">Slot 3 – Evening (6PM–12AM) ₹999/month</option>
+            </select>
+          </div>
+          <div class="fi">
+            <label>Message / Query</label>
+            <textarea id="rMsg" rows="3" placeholder="Koi sawal ya requirement ho toh yahan likhein..."></textarea>
+          </div>
+          <button type="submit" class="wa-submit-btn">
+            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+          </button>
+        </form>
+      </div>
+      <div class="reg-info" data-aos="fade-left">
+        <h3>Find Us</h3>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <span>Phone</span>
+            <a href="tel:+918287735448">+91 82877 35448</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon wa"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <span>WhatsApp</span>
+            <a href="https://wa.me/918287735448" target="_blank">Chat with us now</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <span>Email</span>
+            <a href="mailto:libraryrawat@gmail.com">libraryrawat@gmail.com</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <span>Address</span>
+            <p>LS Plaza, Gali No. 9, Jagat Farm, Block E, GTB Market, Gamma 1, Greater Noida, UP 201310</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <span>Hours</span>
+            <p>Open 24/7 — 365 Days a Year</p>
+          </div>
+        </div>
+        <div class="map-box">
+          <iframe src="https://maps.google.com/maps?q=Jagat+Farm+GTB+Market+Greater+Noida&output=embed" width="100%" height="200" style="border:0" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="sec-header" data-aos="fade-up">
+      <div class="sec-tag">Send a Message</div>
+      <h2>Have a <em>Question?</em></h2>
+      <p>Write to us and we'll reply on WhatsApp in minutes!</p>
+    </div>
+    <div class="contact-box" data-aos="fade-up">
+      <form id="contactForm" novalidate>
+        <div class="fi-row">
+          <div class="fi">
+            <label>Your Name *</label>
+            <input type="text" id="cName" placeholder="Full name" required/>
+          </div>
+          <div class="fi">
+            <label>Phone Number *</label>
+            <input type="tel" id="cPhone" placeholder="+91 XXXXX XXXXX" required/>
+          </div>
+        </div>
+        <div class="fi">
+          <label>Subject</label>
+          <input type="text" id="cSubject" placeholder="What is your query about?"/>
+        </div>
+        <div class="fi">
+          <label>Message *</label>
+          <textarea id="cMsg" rows="5" placeholder="Type your message here..." required></textarea>
+        </div>
+        <button type="submit" class="wa-submit-btn">
+          <i class="fab fa-whatsapp"></i> Send Message on WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="cta-bg">
+    <div class="cta-blob"></div>
+  </div>
+  <div class="container">
+    <div class="cta-inner" data-aos="fade-up">
+      <h2>Ready to Begin Your Journey?</h2>
+      <p>Join 100+ successful students who chose Jeet Library, Greater Noida</p>
+      <div class="cta-actions">
+        <a href="#registration" class="cta-main">Book Your Seat <i class="fas fa-arrow-right"></i></a>
+        <a href="https://maps.google.com/?q=Jagat+Farm+GTB+Market+Greater+Noida" target="_blank" class="cta-ghost"><i class="fas fa-map-marker-alt"></i> Visit Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#home" class="nav-logo">
+        <div class="logo-mark"><i class="fas fa-book-open"></i></div>
+        <div class="logo-text">
+          <span class="logo-name">Your Library</span>
+          <span class="logo-sub">Premium Study Space</span>
+        </div>
+      </a>
+      <p>Your partner in academic excellence. Greater Noida's most trusted 24/7 study space.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/918287735448" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Plans & Pricing</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#registration">Registration</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <ul class="footer-contact">
+        <li><i class="fas fa-phone"></i><a href="tel:+918287735448">+91 82877 35448</a></li>
+        <li><i class="fas fa-envelope"></i><a href="mailto:libraryrawat@gmail.com">libraryrawat@gmail.com</a></li>
+        <li><i class="fas fa-map-marker-alt"></i><span>LS Plaza, Gamma 1, Greater Noida, UP 201310</span></li>
+        <li><i class="fas fa-clock"></i><span>Open 24/7, 365 Days</span></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Study Slots</h4>
+      <ul class="footer-slots">
+        <li><span class="slot-dot"></span>Slot 1: 6AM–10AM — ₹799/mo</li>
+        <li><span class="slot-dot pop"></span>Slot 2: 10AM–6PM — ₹1,499/mo</li>
+        <li><span class="slot-dot"></span>Slot 3: 6PM–12AM — ₹999/mo</li>
+      </ul>
+      <a href="https://wa.me/918287735448" target="_blank" class="footer-wa-btn">
+        <i class="fab fa-whatsapp"></i> WhatsApp Us
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Jeet Library. All rights reserved.</p>
+    <p class="built-by">Designed & Developed by  <span>HARSH</span> for YOUR Library</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/918287735448" target="_blank" class="wa-float" id="waFloat">
+  <i class="fab fa-whatsapp"></i>
+  <span class="wa-tooltip">Chat on WhatsApp</span>
+</a>
+
+<!-- SCROLL TOP -->
+<button class="scroll-top-btn" id="scrollTopBtn"><i class="fas fa-chevron-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
