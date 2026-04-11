@@ -32,37 +32,6 @@ function setThemeIcon(t) {
     : '<i class="fas fa-moon"></i>';
 }
 
-// ─── CUSTOM CURSOR ──────────────────────────────────────────
-const cursor = document.getElementById('cursor');
-const follower = document.getElementById('cursorFollower');
-let mouseX = 0, mouseY = 0, fX = 0, fY = 0;
-
-document.addEventListener('mousemove', e => {
-  mouseX = e.clientX; mouseY = e.clientY;
-  cursor.style.left = mouseX + 'px';
-  cursor.style.top = mouseY + 'px';
-});
-
-function animateFollower() {
-  fX += (mouseX - fX) * 0.1;
-  fY += (mouseY - fY) * 0.1;
-  follower.style.left = fX + 'px';
-  follower.style.top = fY + 'px';
-  requestAnimationFrame(animateFollower);
-}
-animateFollower();
-
-document.querySelectorAll('a, button, .fac-card, .price-card').forEach(el => {
-  el.addEventListener('mouseenter', () => {
-    cursor.style.transform = 'translate(-50%,-50%) scale(2)';
-    follower.style.opacity = '0.2';
-  });
-  el.addEventListener('mouseleave', () => {
-    cursor.style.transform = 'translate(-50%,-50%) scale(1)';
-    follower.style.opacity = '0.4';
-  });
-});
-
 // ─── NAVBAR SCROLL ──────────────────────────────────────────
 const navbar = document.getElementById('navbar');
 const scrollTopBtn = document.getElementById('scrollTopBtn');
